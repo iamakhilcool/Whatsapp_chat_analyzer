@@ -83,7 +83,7 @@ def most_common_words(selected_user,df):
 
 def emoji_helper(selected_user,df):
     if selected_user != 'Overall':
-        df = df[df['us'] == selected_user]
+        df = df[df['user'] == selected_user]
 
     emojis = []
 
